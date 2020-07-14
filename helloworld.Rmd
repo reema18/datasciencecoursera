@@ -1,9 +1,14 @@
+
 ---
 title: "Helloworld"
 author: "Bhubaneswari"
 date: "7/14/2020"
-output: html_document
-
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
 
 ## This is a markdown file
 
